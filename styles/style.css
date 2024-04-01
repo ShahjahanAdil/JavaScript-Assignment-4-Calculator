@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Lato;
+    src: url(../Lato-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(135deg, rgb(116, 136, 252), rgb(254, 153, 233));
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-height: 480px;
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 13%);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    border-bottom: 3px solid hsl(0, 0%, 13%);
+    color: hsl(0, 0%, 13%);
+}
+
+#display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 110px;
+    padding: 10px;
+    font-size: 42px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 92%);
+    background-color: hsl(0, 0%, 26%);
+}
+
+.buttons {
+    margin-top: 10px;
+    height: calc(100% - 90px);
+}
+
+.row {
+    display: flex;
+    height: 20%;
+}
+
+button {
+    width: 25%;
+    margin: 3px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.operators {
+    background-color: hsl(48, 100%, 56%);
+}
+
+.operators:hover {   
+    background-color: hsl(48, 100%, 47%);
+}
+
+.clear {
+    color: white;
+    background-color: hsl(226, 97%, 64%);
+}
+
+.clear:hover {
+    background-color: hsl(226, 100%, 57%);
+}
+
+.del {
+    color: white;
+    background-color: hsl(0, 100%, 57%);
+}
+
+.del:hover {
+    background-color: hsl(0, 85%, 47%);
+}
+
+.digits {
+    color: hsl(0, 0%, 92%);
+    background-color: hsl(0, 0%, 26%);
+}
+
+.digits:hover {
+    background-color: hsl(0, 0%, 18%);
+}
+
+.equals {
+    background-color: hsl(0, 0%, 73%);
+}
+
+.equals:hover {
+    background-color: hsl(0, 0%, 61%);
+}
